@@ -2,9 +2,7 @@
 
 This website is in development.
 
-## About Me & the Website
-
-Hi, I'm Angelo, a web developer. This website is mainly for photographers and artists to showcase their photos or artwork.
+This website is mainly for photographers and artists to showcase their photos or artwork.
 
 ## Goal
 
@@ -37,4 +35,4 @@ I'm trying to be as semantic as possible with the code. For example when we use 
 Since we're using semantic elements it gives us a lot more ways to target the elements instead of using class name and ids which sometimes when not implemented right can clutter the code. I like using different css selectors as well not just element tags for example pseudo-classes.
 
 - Accesibility
-  I want my website to adhere to accessibility standards so that people with disabilities can also use it as well.
+  I'm working towards making the website accesible for people with disability as well.
