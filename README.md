@@ -6,9 +6,9 @@ It is designed for photographers and artists to showcase their work.
 
 ## Goal
 
-Initially, I created this website as a project for my portfolio as a web developer. It can be used as a template for photographers and artists to showcase their work, but since I enjoy photography as well—especially film—I decided, "You know what? I'll use this website myself to show how to use it and share what I'm up to, since I'm not into social media."
+At first, I created this website as a project for my portfolio as a web developer. It can be used as a template for photographers and artists to showcase their work, but since I enjoy photography as well—especially film—I decided, "You know what? I'll use this website myself to show anyone how to use it and share what I'm up to, since I'm not into social media."
 
-Since I don't have a film camera yet, I will be using stock images from Unsplash for now. However, when I eventually get a film camera, I’ll replace these with photos I personally capture.
+Since I don't have a film camera yet, I will be using stock images from Unsplash for now. But, when I eventually get one, I’ll replace these with photos I personally capture.
 
 ## Features
 
@@ -27,6 +27,7 @@ The main page has a 4x2 grid to quickly display the images or artwork. The Colle
 - Design
 
   Functionality over everything else.
+  Tecnology to in this case a website is a tool to help us about something not to distract us from reality.
 
   I designed and coded the website with minimalism, brutalism, and Swiss design in mind. The use of black and white is intentional; I don’t want any colors to distract from the images. The same goes for the font—using sans-serif instead of serif.
 
