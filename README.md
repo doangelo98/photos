@@ -25,6 +25,7 @@ The main page has a 4x2 grid to quickly display the images or artwork. The Colle
 ## Thought Process
 
 - Design
+
   Functionality over everything else.
 
   I designed and coded the website with minimalism, brutalism, and Swiss design in mind. The use of black and white is intentional; I don’t want any colors to distract from the images. The same goes for the font—using sans-serif instead of serif.
