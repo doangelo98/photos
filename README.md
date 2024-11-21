@@ -2,7 +2,7 @@ This website is still in development.
 
 # About Me
 
-Hi, I'm James, a web developer. This website is mainly for photographers and artists to showcase their photos or art. The main page has a 4x2 grid to quickly display the images or art of the photographer or artist. The collection page will have a collection of albums. The contact page, of course, will have the contact details. The About Me page contains a biography or introduction to the photographer or artist. The blog will contain updates about new photos, art, albums, or anything that the photographer or artist wants to share.
+Hi, I'm Angelo, a web developer. This website is mainly for photographers and artists to showcase their photos or art. The main page has a 4x2 grid to quickly display the images or art of the photographer or artist. The collection page will have a collection of albums. The contact page, of course, will have the contact details. The About Me page contains a biography or introduction to the photographer or artist. The blog will contain updates about new photos, art, albums, or anything that the photographer or artist wants to share.
 
 # Goal
 
@@ -20,6 +20,6 @@ What's the goal in creating this website? Well, I simply like photography, espec
 
 # Thought Process
 
-I designed and coded the website with minimalism and brutalism in mind. The use of black and white is intentional; I don’t want any colors to distract from the images. The same goes for the font. I use Inter, a sans-serif font, which is highly readable, instead of using a serif font. I’m trying to be as semantic as possible with the code. You might notice the lack of <div> elements—<div> is not semantic, although for larger projects, it’s inevitable. I want my website to adhere to accessibility standards, so that people with disabilities can also use it.
+I designed and coded the website with minimalism and brutalism in mind. The use of black and white is intentional; I don’t want any colors to distract from the images. The same goes for the font. I use Inter, a sans-serif font, which is highly readable, instead of using a serif font. I’m trying to be as semantic as possible with the code. You might notice the lack of div, div elements is not semantic, although for larger projects, it’s inevitable. I want my website to adhere to accessibility standards, so that people with disabilities can also use it.
 
 There might be grammatical errors since English isn't my first language, but I assure you that I’m constantly checking for them.
