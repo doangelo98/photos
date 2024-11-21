@@ -1,12 +1,13 @@
 # Photos
 
 This website is in development.
-
-This website is mainly for photographers and artists to showcase their photos or artwork.
+For photographers and artists to showcase their photos or artwork.
 
 ## Goal
 
-I like photography, especially film photography. The goal is to eventually buy a film camera to replace the stock images used on the website with my own personally captured ones. As long as I have time, I'll be updating this website. I'm not into social media, so this is a way for me to share what I'm up to through my photos.
+At first I only created this website as a project for my portfolio as a web developer, it can be used as a template for photographers and artist to show their works but since I like photography as well especially film, I decided you know what I'll use this website myself to show anyone how to use it and to share what I'm upto as well since I'm not into social media,
+
+Since I don't have a film camera yet I'll be using stock images from Unsplash for now, but when I eventually do I'll be changing those to the ones I personally captured.
 
 ## Features
 
