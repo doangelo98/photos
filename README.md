@@ -1,6 +1,7 @@
 # Photos
 
 This website is in development.
+
 For photographers and artists to showcase their photos or artwork.
 
 ## Goal
