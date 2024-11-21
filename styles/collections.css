@@ -5,6 +5,12 @@
 }
 
 body {
+  text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
+  font-size: 2.986rem;
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
