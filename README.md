@@ -33,7 +33,7 @@ I designed and coded the website with minimalism, brutalism, and Swiss design in
   I'm trying to be as semantic as possible with the code. For example, when we use a div element, it tells us nothing about its content. But when we use header or nav, we can easily understand what content is inside, just by looking at the element's tag. However, as the project grows larger, using div elements becomes inevitable.
 
 - CSS
-  Since we're using semantic elements, it gives us more ways to target elements without cluttering the code with excessive class names and IDs. I like using different CSS selectors as well—not just element tags, but also pseudo-classes.
+  Since we're using semantic elements, it gives us more ways to target elements without cluttering the code with excessive class names and IDs. I like using different CSS selectors as well—not just element tags, for example pseudo-classes.
 
 - Accessibility
   I'm working towards making the website accessible for people with disabilities as well.
