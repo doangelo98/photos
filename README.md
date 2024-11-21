@@ -14,16 +14,14 @@ I like photography, especially film photography. The goal is to eventually buy a
 
 The main page has a 4x2 grid to quickly display the images or art of the photographer or artist. The Collections page contain a collection of albums. The Contact page contains the contact information. The About page contains the biography or introduction to the photographer or artist. The Blog contains updates about new photos, art, albums, or anything that the photographer or artist wants to share.
 
-- Dark mode
 - Grid layout
-- Resolution switching (in progress)
+- Dark mode
 - Responsive design
-- Mobile-first approach (as of October 2024, according to statcounter.com, mobile market share amounts to 62.79% vs. 37.21% for desktop)
+- Mobile-first approach
 - Works on every browser
+- Resolution switching (in progress)
 - Accessibility (in progress)
 
 ## Thought Process
 
 I designed and coded the website with minimalism and brutalism in mind. The use of black and white is intentional; I don’t want any colors to distract from the images. The same goes for the font. I use Inter, a sans-serif font, which is highly readable, instead of using a serif font. I’m trying to be as semantic as possible with the code. You might notice the lack of div elements—div is not semantic, although for larger projects, it’s inevitable. I want my website to adhere to accessibility standards, so that people with disabilities can also use it.
-
-There might be grammatical errors since English isn't my first language, but I assure you that I’m constantly checking for them.
