@@ -24,4 +24,16 @@ The main page has a 4x2 grid to quickly display the images or artwork of the pho
 
 ## Thought Process
 
-I designed and coded the website with minimalism and brutalism in mind. The use of black and white is intentional; I don’t want any colors to distract from the images. The same goes for the font. I use Inter, a sans-serif font, which is highly readable, instead of using a serif font. I’m trying to be as semantic as possible with the code. You might notice the lack of div elements—div is not semantic, although for larger projects, it’s inevitable. I want my website to adhere to accessibility standards so that people with disabilities can also use it.
+- Design
+  I designed and coded the website with minimalism and brutalism in mind. The use of black and white is intentional; I don’t want any colors to distract from the images. The same goes for the font. I use Inter, a sans-serif font, which is highly readable, instead of using a serif font.
+
+- HTML
+
+I'm trying to be as semantic as possible with the code. For example when we use div element it tells nothing about its content but when we use header or nav we can easily know what its content just base on the elements tag. But as the project grows larger using div is inevitable.
+
+- CSS
+
+Since we're using semantic elements it gives us a lot more ways to target the elements instead of using class name and ids which sometimes when not implemented right can clutter the code. I like using different css selectors as well not just element tags for example pseudo-classes.
+
+- Accesibility
+  I want my website to adhere to accessibility standards so that people with disabilities can also use it as well.
