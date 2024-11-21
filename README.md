@@ -25,7 +25,8 @@ The main page has a 4x2 grid to quickly display the images or artwork of the pho
 ## Thought Process
 
 - Design
-  I designed and coded the website with minimalism and brutalism in mind. The use of black and white is intentional; I don’t want any colors to distract from the images. The same goes for the font. I use Inter, a sans-serif font, which is highly readable, instead of using a serif font.
+
+I designed and coded the website with minimalism and brutalism in mind. The use of black and white is intentional; I don’t want any colors to distract from the images. The same goes for the font. I use Inter, a sans-serif font, which is highly readable, instead of using a serif font.
 
 - HTML
 
