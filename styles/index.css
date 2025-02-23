@@ -84,6 +84,7 @@ a {
   ul:nth-child(2) {
     display: flex;
     gap: 1rem;
+    border: 1px solid white;
   }
 }
 
