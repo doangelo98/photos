@@ -7,10 +7,11 @@
 body {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
-  font-size: 2.986rem;
+  font-size: clamp(1rem, 0.0909rem + 4.5455vw, 3rem);
   padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  text-align: center;
 }
