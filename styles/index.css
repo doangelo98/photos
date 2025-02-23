@@ -9,7 +9,7 @@ body {
   padding: 1rem;
 }
 
-img {
+a img {
   width: 100%;
   height: unset;
   aspect-ratio: 1 / 1;
@@ -18,7 +18,8 @@ img {
 }
 
 header,
-main {
+main,
+footer {
   margin: auto;
   max-width: 1024px;
 }
@@ -35,18 +36,30 @@ main {
   margin-bottom: 1.5rem;
 }
 
-ul {
+nav {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
+}
+
+nav :last-child {
+  display: flex;
+  gap: 1rem;
+}
+
+nav > a {
+  font-size: 2.074rem;
+}
+
+ul img {
+  width: 1.44rem;
+  aspect-ratio: 1 / 1;
+  display: block;
 }
 
 li {
   list-style: none;
   font-size: 1.44rem;
-}
-
-li:first-child {
-  font-size: 2.074rem;
 }
 
 a {
@@ -59,15 +72,16 @@ a {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  ul {
+  nav {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    justify-content: space-between;
     align-items: center;
   }
 
-  li:first-child {
-    margin-right: auto;
+  ul:nth-child(2) {
+    display: flex;
+    gap: 1rem;
   }
 }
 
