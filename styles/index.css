@@ -22,7 +22,6 @@ main,
 footer {
   margin: auto;
   max-width: 1024px;
-  border: 1px solid;
 }
 
 header {
@@ -52,10 +51,12 @@ nav > a {
   font-size: 2.074rem;
 }
 
-ul img {
+ul div {
+  background-image: url('/instagram.svg');
   width: 1.44rem;
   aspect-ratio: 1 / 1;
-  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 li {
@@ -93,5 +94,9 @@ a {
 
   header {
     color: white;
+  }
+
+  ul div {
+    background-image: url('/icons8-instagram.svg');
   }
 }
