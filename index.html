@@ -2,19 +2,6 @@
 <html lang="en">
   <head>
     <meta
-      http-equiv="cache-control"
-      content="no-cache"
-    />
-    <meta
-      http-equiv="expires"
-      content="0"
-    />
-    <meta
-      http-equiv="pragma"
-      content="no-cache"
-    />
-
-    <meta
       name="description"
       content="Photos, a grid-based theme with featured images, a modern, minimalist design perfect for photoblogging."
     />
@@ -29,136 +16,36 @@
       href="./styles/index.css"
     />
     <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"
     />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">Photos</a>
-        <ul>
-          <li><a href="./collections.html">Collections</a></li>
-          <li><a href="./about.html">About</a></li>
-        </ul>
-        <ul>
-          <div></div>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <a
-        href="https://unsplash.com/photos/cars-approaching-pedestrian-lanee-XForFYYtoUo"
-        ><img
-          src="./images/rap-dela-rea-XForFYYtoUo-unsplash.jpg"
-          alt="Cars approaching pedestrian lane."
-          width="640"
-          height="414"
-      /></a>
-
-      <a
-        href="https://unsplash.com/photos/man-in-black-coat-standing-near-red-train-MzfsoOm9GVQ"
-        ><img
-          src="./images/joan-tran-MzfsoOm9GVQ-unsplash.jpg"
-          alt="Man in black coat standing near red train."
-          width="640"
-          height="427"
-      /></a>
-
-      <a
-        href="https://unsplash.com/photos/people-playing-ice-hockey-on-field-during-daytime-TF77OUXVXWY"
-        ><img
-          src="./images/weiqi-xiong-TF77OUXVXWY-unsplash.jpg"
-          alt="People playing soccer on field during daytime."
-          width="640"
-          height="420"
-      /></a>
-
-      <a
-        href="https://unsplash.com/photos/a-vending-machine-sitting-on-the-side-of-a-road-z8YArPCcS1A"
-        ><img
-          src="./images/jieun-kwon-z8YArPCcS1A-unsplash.jpg"
-          alt="A vending machine sitting on the side of a road."
-          width="640"
-          height="424"
-      /></a>
-
-      <a
-        href="https://unsplash.com/photos/a-man-riding-a-motorcycle-down-a-street-next-to-tall-buildings-CLassnwKkY8"
-        ><img
-          src="./images/transly-translation-agency-CLassnwKkY8-unsplash.jpg"
-          alt="A man riding a motorcycle down a street next to tall buildings."
-          width="640"
-          height="427"
-      /></a>
-
-      <a href="https://unsplash.com/photos/-8OqXZY1Phw"
-        ><img
-          src="./images/rap-dela-rea--8OqXZY1Phw-unsplash.jpg"
-          alt="Tokyo Skytree"
-          width="640"
-          height="427"
-      /></a>
-
-      <a
-        href="https://unsplash.com/photos/a-subway-station-with-people-waiting-for-the-train-QprxCvJk7Jc"
-        ><img
-          src="./images/tyler-zhang-QprxCvJk7Jc-unsplash.jpg"
-          alt="A subway station with people waiting for the train."
-          width="640"
-          height="853"
-      /></a>
-
-      <a
-        href="https://unsplash.com/photos/a-city-street-filled-with-lots-of-tall-buildings-8DdEg7e23cs"
+    <span class="material-symbols-outlined"> menu </span>
+    <nav>
+      <a href="">Photos</a>
+    </nav>
+    <div id="overlay">
+      <ul>
+        <a href=""><li>Instagram</li></a>
+        <a href=""><li>Mail</li></a>
+      </ul>
+      <button
+        id="off"
+        onclick="off()"
       >
-        <img
-          src="./images/chloe-evans-8DdEg7e23cs-unsplash.jpg"
-          alt="A city street filled with lots of tall buildings."
-          width="640"
-          height="427"
-        />
-      </a>
+        Turn
+      </button>
+    </div>
 
-      <a href="">
-        <img
-          src="images/galen-crout-0_xMuEbpFAQ-unsplash.jpg"
-          alt=""
-        />
-      </a>
+    <script>
+      function on() {
+        document.getElementById('overlay').style.display = 'block';
+      }
 
-      <a href="">
-        <img
-          src="images/jezael-melgoza-7H77FWkK_x4-unsplash.jpg"
-          alt=""
-        />
-      </a>
-
-      <a href="">
-        <img
-          src="images/jezael-melgoza-layMbSJ3YOE-unsplash.jpg"
-          alt=""
-        />
-      </a>
-
-      <a href="">
-        <img
-          src="images/vista-wei-OiERUvVrioU-unsplash.jpg"
-          alt=""
-        />
-      </a>
-    </main>
-    <footer>
-      <span>Photos</span>
-    </footer>
+      function off() {
+        document.getElementById('overlay').style.display = 'none';
+      }
+    </script>
   </body>
 </html>
