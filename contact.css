@@ -16,19 +16,30 @@ a {
   color: unset;
 }
 
-header > a {
-  text-decoration: none;
-  font-size: clamp(2.441rem, 0.5789rem + 9.3105vw, 3.052rem);
-  font-weight: bold;
+li {
+  list-style: none;
+}
+
+nav > ul {
+  display: flex;
+  gap: 0.5rem;
+}
+
+nav > ul > li {
+  font-size: clamp(1.563rem, 0.3744rem + 5.9429vw, 1.953rem);
+}
+
+main {
+  flex-grow: 1;
 }
 
 address {
-  flex-grow: 1;
+  height: 100%;
   font-style: normal;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  font-size: clamp(1.563rem, 1.0755rem + 1.56vw, 1.953rem);
+  font-size: clamp(1.563rem, 0.3744rem + 5.9429vw, 1.953rem);
 }
 
 @media (min-width: 426px) {
@@ -37,7 +48,7 @@ address {
   }
 
   address {
-    font-size: clamp(1.953rem, 1.343rem + 1.952vw, 2.441rem);
+    font-size: clamp(1.953rem, 1.3451rem + 2.283vw, 2.441rem);
     justify-content: center;
     align-items: center;
   }
