@@ -13,11 +13,11 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: unset;
 }
 
 header > a {
+  text-decoration: none;
   font-size: clamp(2.441rem, 0.5789rem + 9.3105vw, 3.052rem);
   font-weight: bold;
 }
