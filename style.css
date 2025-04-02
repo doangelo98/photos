@@ -29,7 +29,7 @@ header {
   display: flex;
   flex-direction: column-reverse;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 header > a {
