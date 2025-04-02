@@ -33,7 +33,7 @@ main {
   flex-grow: 1;
 }
 
-address {
+main > address {
   height: 100%;
   font-style: normal;
   display: flex;
@@ -47,7 +47,7 @@ address {
     padding: 2rem;
   }
 
-  address {
+  main > address {
     font-size: clamp(1.953rem, 1.3451rem + 2.283vw, 2.441rem);
     justify-content: center;
     align-items: center;
