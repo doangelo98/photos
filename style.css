@@ -42,7 +42,7 @@ header > nav > ul > li > a {
   font-size: clamp(1.563rem, 0.3744rem + 5.9429vw, 1.953rem);
 }
 
-main > section {
+main {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -65,26 +65,33 @@ main > section {
     gap: 1rem;
   }
 
-  main > section {
+  main {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2rem;
   }
 }
 
 @media (min-width: 769px) {
-  main > section {
+  main {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 3rem;
   }
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
+  header > a {
+    font-size: clamp(1.953rem, 1.3451rem + 2.283vw, 2.441rem);
+  }
+
   header > nav > ul > li > a {
     font-size: clamp(1.25rem, 0.8601rem + 1.4643vw, 1.563rem);
   }
+}
 
-  header > a {
-    font-size: clamp(1.953rem, 1.3451rem + 2.283vw, 2.441rem);
+@media (min-width: 2560px) {
+  body {
+    max-width: 1440px;
+    margin: auto;
   }
 }
 
