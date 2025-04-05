@@ -55,6 +55,13 @@ main > address {
   }
 }
 
+@media (min-width: 2560px) {
+  body {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: black;
