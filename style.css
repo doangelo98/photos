@@ -78,6 +78,13 @@ main {
   }
 }
 
+@media (min-width: 2560px) {
+  body {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
 @media (min-width: 426px) and (max-width: 768px) {
   header > a {
     font-size: clamp(1.953rem, 1.3451rem + 2.283vw, 2.441rem);
@@ -85,13 +92,6 @@ main {
 
   header > nav > ul > li > a {
     font-size: clamp(1.25rem, 0.8601rem + 1.4643vw, 1.563rem);
-  }
-}
-
-@media (min-width: 2560px) {
-  body {
-    max-width: 1440px;
-    margin: auto;
   }
 }
 
